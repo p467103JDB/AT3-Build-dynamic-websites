@@ -1,0 +1,34 @@
+    html, body {
+    height: 100%;
+    background-color: #1f1f1f;
+    } 
+
+    .navbar-brand {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif; 
+        color: rgb(255, 255, 255); 
+    }
+    
+    .nav-link {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif; 
+        color: rgb(255, 255, 255); 
+    }
+
+    .mainClass {
+    background-color: #1f1f1f;
+    color: aliceblue;
+    }
+
+    .mainClass thead {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .mainClass tbody {
+    text-align: left !important;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+    
