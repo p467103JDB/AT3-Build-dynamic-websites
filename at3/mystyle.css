@@ -28,7 +28,27 @@
     text-align: left !important;
     }
 
-    .text-left {
+
+    /*Accordion Entries with PHP ECHO*/
+    .accordion-body {
         text-align: left;
+        background-color: #3a3a3a; 
+        border-radius: 0 0 10px 10px; /* Makes the corners more rounded for the main body. */
+        padding: 20px 20px; /* gives padding to move the text away from the border */
     }
-    
+
+    .accordion-button {
+        background-color: #6d6d6d;
+        color: white;
+        border-radius: 10px 10px 0 0 !important; /* Now working 3/10/24/ - was running into conflicts, top corners werent rounding, i needed to use !importan*/
+        padding: 20px 20px; 
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #6d6d6d; 
+        color: white;
+    }
+
+    .accordion-item {
+        margin: 2%;
+    }
